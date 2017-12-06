@@ -10,6 +10,3 @@
 /usr/bin/curl -L -s 'https://raw.githubusercontent.com/mitchellh/vagrant/master/keys/vagrant.pub' > "/Users/vagrant/.ssh/authorized_keys"
 /bin/chmod 600 /Users/vagrant/.ssh/authorized_keys
 /usr/sbin/chown -R vagrant:staff /Users/vagrant/.ssh
-
-#configure sudoers
-/bin/echo "vagrant ALL=(ALL) NOPASSWD: ALL" >> /etc/sudoers
