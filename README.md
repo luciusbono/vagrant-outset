@@ -4,7 +4,9 @@ These are a set of scripts that can be used in conjunction with [outset](https:/
 
 When installed on a system using [outset](https://github.com/chilcote/outset), these scripts will be run at load in their respective contexts. 
 
-###Create package
+These scripts were originally written by Greg Neagle and have been modified slightly.
+
+### Create package
 
 Build a vagrant-outset package.
 
